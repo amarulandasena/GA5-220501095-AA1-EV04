@@ -1,6 +1,75 @@
 body {
-    background: #FFF url(../img/textura6.jpeg) repeat center;
-    font-family: Medium;
-    margin: 0px 20px;
+    background: #e4e0e0 url(../img/textura6.jpeg) repeat;
+    font-family: Garamond;
+    max-width: 1500px;
 }
+
+.bordeALaIzquierda {
+    border-radius: 5px 0 0 5px;
+    background-color: rgb(123, 129, 134);
+}
+
+#paginaLogin {
+    display:flex;
+    justify-content: space-between;
+}
+
+#login {
+    background-color: #FFFF;
+    width: 50%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+section div label {
+    font-size: 24px;
+}
+
+section div input {
+        height: 20px;
+        border: 2px solid;
+        border-radius: 4px;
+        margin-top: 10px;
+}
+
+.ingresar {
+    color: #FFFF;
+    font-size: 15px;
+    background-color: rgb(132, 32, 226);
+    border: 2px solid rgb(132, 32, 226);
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+}
+
+aside {
+    background-image: url(../img/belstar-planta.jpg);
+    height: 590px;
+    width: 700px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#certificaciones {
+    background-color: #FFFF;
+    height: 93px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+
+footer {
+    background-color: black;
+    color:#FFFF;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 3px;;
+}
+
+
 
