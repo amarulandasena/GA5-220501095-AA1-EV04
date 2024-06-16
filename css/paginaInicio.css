@@ -1,0 +1,86 @@
+/* formato para el fondo de las vistas */
+body {
+    background-color: rgb(245, 238, 238);
+    font-family: Garamond;
+    max-width: 1500px;
+}
+
+/* le damos curva a los bordes de la parte donde están el logo y los input */
+.bordeALaIzquierda {
+    border-radius: 5px;
+    background-color: rgb(123, 129, 134);   /* Color de fondo */
+}
+
+/* Distribuimos y alineamos de forma horizontal los input y la imagen de la planta */
+#paginaLogin {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Posicionamos, distribuimos y alineamos de forma vertical el logo, los input, el bóton y la recuperación de la contraseña */
+#login {
+    background-color: #FFFF;
+    width: 50%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+/* Modificamos el tamaño de la fuente de los textos que indican la información que se debe ingresar */
+section div label {
+    font-size: 24px;
+}
+
+/* Damos formato a los input */
+section div input {
+    height: 20px;
+    border: 2px solid;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Damos formato al botón de ingreso */
+.ingresar {
+    color: #FFFF;                           /* Color de la fuente */
+    font-size: 15px;
+    background-color: rgb(128, 20, 138);
+    border: 2px solid  rgb(128, 20, 138);
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+}
+
+/* La etiqueta aside carece de contenido ya que desde aquí se le da todo el formato */
+.imagenPlanta {
+    background-image: url(../img/belstar-planta.jpg);
+    height: 590px;
+    width: 700px;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: 5px;
+}
+
+/* Formato para el bloque que contiene los logos de las certificaciones */
+#certificaciones {
+    background-color: #FFFF;
+    height: 93px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    margin-top: 3px;
+}
+
+/* Pie de página para todas las vistas */
+footer {
+    background-color: black;
+    color:#FFFF;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
