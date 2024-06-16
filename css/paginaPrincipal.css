@@ -81,11 +81,20 @@ ul li:hover > ul{
     border-radius: 5px;
 }
 
+/* Formato presentación fundación */
+#presentacionFundacion {
+    margin: 3px;
+    background-color: white;
+    height: 350px;
+    display: flex;
+    justify-content: start;
+}
+
 /* Formato a accesos y productos */
 #accesosYProductos {
     display: flex;
     justify-content: start;
-    margin-top: 3px;
+    margin: 3px;
 }
 
 /* Fondo del aside */
@@ -107,5 +116,14 @@ ul li:hover > ul{
     padding-left: 36px;
 }
 
+/* Eliminar las viñetas de la lista */
+#accesosDirectos ul {
+    list-style-type: none;
+}
+
+/* Formato a cada item de la lista */
+#accesosDirectos ul li {
+    height: 35px;
+}
 
 
