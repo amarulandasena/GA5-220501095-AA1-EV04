@@ -19,7 +19,6 @@
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    margin-left: 10px;
     list-style-type: none;      /* Eliminar los círculos de los items de las listas */ 
 }
 
@@ -75,11 +74,34 @@ ul li:hover > ul{
 
 /* Formato slider */
 #slider {
-    background-image: url(../img/fundacionBelcorp.jpg);
-    height: 350px;
+    background-image: url(../img/fundacionBelcorp2.jpeg);
+    height: 480px;
     width: 1361px;
     margin-top: 3px;
     border-radius: 5px;
+}
+
+#slider div {
+    background-color: #FFFF;
+    margin-left: 50%;
+    height: 480px;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#slider div h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#slider div p {
+    font-family: Arial;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
 }
 
 /* Formato para accesos directos y nuevos productos */
@@ -92,7 +114,7 @@ ul li:hover > ul{
 /* Fondo al aside */
 #accesosYProductos aside {
     height: 350px;
-    background-color: rgb(59, 56, 56);
+    background-color: #0000;
     padding-right: 40px; 
     border-radius: 5px;
     margin-right: 10px;
@@ -102,20 +124,21 @@ ul li:hover > ul{
 }
 
 /* Eliminar las viñetas de la lista de accesos directos */
-aside ul {
-    list-style-type: none;          /* la propiedad se debe ubicar en la etiqueta que genera la lista */
-    
+#accesosYProductos aside ul {
+    list-style-type: none;          /* la propiedad se debe ubicar en la etiqueta que genera la lista */   
 }
 
 /* Formato a las opciones del listado de accesos directos */
-aside ul li {
-    
+#accesosYProductos aside ul li {
+    border-bottom: 1px #FFFF solid;
+    height: 35px;
+    padding-top: 5px;
 }
 
 /* Formato título accesos directos */
-aside h3 {
+#accesosDirectos {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #FFFF;
+    color: #0000;
     padding-left: 36px;
 }
 
