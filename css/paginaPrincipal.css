@@ -61,8 +61,96 @@ ul.submenu > li ul {
     height: 350px;
     display: flex;
     justify-content: start;
+    margin-top: 3px;
 }
 
+/* Formato logo fundación */
+.fundacion {
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+    margin-right: 35px;
+}
 
+/* Formato títulos presentacion */
+#presentacionFundacion h1{
+    font: italic bold 30px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(40, 155, 184);
+}
+
+/* Formato fondo programas */
+.fondo {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+}
+
+div.fondo h3 {
+    font: italic bold 20px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(40, 155, 184);
+}
+
+/* parrafos de los programas */
+div.fondo p {
+    text-align: left;
+    line-height: 1.3em;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(100, 96, 96);
+}
+
+/* Formato general bloque accesos directos y nuevos productos */
+#accesosYProductos {
+    display: flex;
+    justify-content: start;
+    height: 350px;
+    margin-top: 3px;
+}
+
+/* Títulos del bloque de accesos directos y productos */
+#accesosYProductos h3 {
+    font: italic bold 20px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(40, 155, 184);
+    text-align: center;
+}
+
+/* Fondo de los accesos directos */
+#accesosDirectos {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+/* Formato a los enlaces de los accesos directos */
+#accesosDirectos ul {
+    list-style-type: none;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+#accesosDirectos ul li {
+    height: 38px;
+    border-bottom: 1px solid rgb(128, 20, 138);
+    padding-top: 5px;
+}
+
+/* Formato a la sección de nuevos productos */
+#nuevosProductos {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nuevosProductos div{
+    display: flex;
+    column-gap: 80px;
+    padding: 5px 145px;    
+}
 
 
